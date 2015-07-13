@@ -253,5 +253,10 @@ msgctxt "#31391"
 msgid "Roboto"
 msgstr ""
 
+#. Font Title
+msgctxt "#31392"
+msgid "RobotoV2"
+msgstr ""
+
 
   
