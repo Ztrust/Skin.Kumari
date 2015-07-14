@@ -4,11 +4,13 @@
                                                   DialogMediaFilter.xml
 
                                                   DialogExtendedProgressBar.xml
+                                                  SkinSettings.xml
 
                                                       <!-- ============= -->
                                                       <!--    Removed    -->
                                                       <!-- ============= -->
                                                   DialogMusicScan.xml
+                                                  CustomSettings.xml --> changed to skinsetings
 
                                                       <!-- ============= -->
                                                       <!--   Replaced    -->
