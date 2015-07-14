@@ -69,13 +69,6 @@
 				<onclick>SetFocus(50)</onclick>
 			</control>
 
-			<control type="radiobutton" id="7">
-				<description>Stack</description>
-				<width>330</width>
-				<align>left</align>
-				<label>14000</label>
-				<altlabel>14001</altlabel>
-			</control>
 
 			<control type="button" id="8">
 				<description>Search</description>
@@ -101,12 +94,7 @@
 				<label>589</label>
 			</control>
 
-			<control type="radiobutton" id="17">
-				<description>Flatten</description>
-				<width>330</width>
-				<align>left</align>
-				<label>20411</label>
-			</control>
+
                     <!--  Need fixing and updated to other filter mode -->
 			<control type="button" id="21">
 				<description>Activate Filter</description>

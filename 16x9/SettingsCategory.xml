@@ -5,7 +5,7 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
-
+                <!-- Need to ad settings level button + decription box -->
 		<include>GlobalBackground</include>
 
 		<control type="grouplist" id="3">
@@ -51,11 +51,17 @@
 			<description>Default Spin Control</description>
 			<align>left</align>
 		</control>
-
-		<control type="button" id="10">
+	<control type="button" id="10">
 			<description>Default Category Button</description>
 			<align>left</align>
-		</control>
+		</control>	
+		
+	<control type="button" id="20">
+			<description>Setting Level Change</description>
+			<align>left</align>
+		</control>	
+		
+
 
 	</controls>
 
