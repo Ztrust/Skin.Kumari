@@ -60,7 +60,6 @@
 	</include>
 
 <!-- 	<include name="GlobalOverlay">
-
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture border="2">other_textures/black-back.png</texture>
@@ -69,19 +68,17 @@
 	</include> -->
 
 	<include name="GlobalBackground">
-
+<!-- diffuse="my_textures/fanartdiffuse2.png" -->
 		<control type="group">
 			<visible>!Player.HasMedia | [Player.HasAudio + Skin.HasSetting(NoBackgroundVisualiser)] | [Player.HasVideo + Skin.HasSetting(NoBackgroundVideo)]</visible>
-
 			<control type="image">
 				<include>Dimensions_Fullscreen</include>
 				<fadetime>800</fadetime>
+				<colordiffuse>1AFFFFFF</colordiffuse>
 				<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
-<!-- 				<colordiffuse>FanartDiffuse</colordiffuse> -->
-				<visible>[!IsEmpty(ListItem.foldername) + Container.Content(Movies)] | !Window.IsVisible(videolibrary)</visible>
 			</control>
 
-	<!-- 		<control type="image">
+<!-- 			<control type="image">
 				<include>Dimensions_Fullscreen</include>
 				<fadetime>800</fadetime>
 				<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -99,7 +96,7 @@
 
 		</control>
 
-	<!-- 	<control type="group">
+<!-- 		<control type="group">
 			<visible>[Player.HasAudio + !Skin.HasSetting(NoBackgroundVisualiser)] | [Player.HasVideo + !Skin.HasSetting(NoBackgroundVideo)]</visible>
 
 			<control type="visualisation">

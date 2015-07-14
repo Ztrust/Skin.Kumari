@@ -13,8 +13,16 @@
 			<include>HiddenButton</include>
 		</control>
 
-		<include>GlobalBackground</include>
+				<include>GlobalBackground</include>
+		<!-- diffuse="thumbs/boxes/movieposter_mask.png" -->
 
+
+<!-- 		<control type="image">
+			<include>Dimensions_Fullscreen</include>
+			<fadetime>600</fadetime>
+			<texture background="true" diffuse="my_textures/fanartdiffuse2.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
+		</control>
+ -->
 		<include>View_50_List</include>
 
 		<control type="grouplist" id="9000">
@@ -29,8 +37,8 @@
 			<ondown>9000</ondown>
 			<orientation>vertical</orientation>
 			<animation type="Conditional" condition="!ControlGroup(9000).HasFocus()">
-				<effect type="fade" start="100" end="50" time="200" />
-				<effect type="zoom" center="0,450" start="100" end="80" time="200" />
+				<effect type="fade" start="100" end="50" time="200"/>
+				<effect type="zoom" center="0,450" start="100" end="80" time="200"/>
 			</animation>
 
 			<control type="button" id="2">
