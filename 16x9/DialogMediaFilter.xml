@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
+                        <!-- NEEDS FIXING ADDED FROM CONFLUENCE -->
     <defaultcontrol always="true">5</defaultcontrol>
     <coordinates>
         <system>1</system>

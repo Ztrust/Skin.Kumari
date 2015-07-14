@@ -5,12 +5,14 @@
 
                                                   DialogExtendedProgressBar.xml
                                                   SkinSettings.xml
+                                                  DialogSubtitles.xml
 
                                                       <!-- ============= -->
                                                       <!--    Removed    -->
                                                       <!-- ============= -->
                                                   DialogMusicScan.xml
                                                   CustomSettings.xml --> changed to skinsetings
+                                                  DialogVideoScan.xml
 
                                                       <!-- ============= -->
                                                       <!--   Replaced    -->
