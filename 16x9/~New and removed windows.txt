@@ -1,0 +1,18 @@
+                                                      <!-- ============= -->
+                                                      <!--    Added      -->
+                                                      <!-- ============= -->
+                                                  DialogMediaFilter.xml
+
+                                                  DialogExtendedProgressBar.xml
+
+                                                      <!-- ============= -->
+                                                      <!--    Removed    -->
+                                                      <!-- ============= -->
+                                                  DialogMusicScan.xml
+
+                                                      <!-- ============= -->
+                                                      <!--   Replaced    -->
+                                                      <!-- ============= -->
+			
+			
+
