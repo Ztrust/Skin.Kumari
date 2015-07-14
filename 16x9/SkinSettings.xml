@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window>
-	<defaultcontrol always="true">9000</defaultcontrol>
+	<defaultcontrol always="true">100</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
@@ -64,8 +64,8 @@
 				</item>
 
 				<item id="2">
-					<description>Lyrics/Subtitles</description>
-					<label>31017</label>
+					<description>Lyrics</description>
+					<label>$LOCALIZE[31017]</label>
 					<onclick>-</onclick>
 				</item>
 
@@ -134,15 +134,7 @@
 					<label>31025</label>
 					<onclick>Skin.SetAddon(LyricPath,xbmc.python.lyrics)</onclick>
 				</control>
-
-				<control type="button" id="302">
-					<description>Default Button</description>
-					<width>1230</width>
-					<align>left</align>
-					<label>31026</label>
-					<onclick>Skin.SetAddon(SubtitlePath,xbmc.python.subtitles)</onclick>
-				</control>
-
+			
 			</control>
 
 			<control type="grouplist" id="400">
@@ -172,23 +164,6 @@
 					<label>CU Lyrics</label>
 					<visible>IsEmpty(Skin.String(LyricPath))</visible>
 				</control>
-
-				<control type="label" id="403">
-					<description>Default Button</description>
-					<width>1200</width>
-					<align>right</align>
-					<label>$INFO[Skin.String(SubtitlesPath)]</label>
-					<visible>!IsEmpty(Skin.String(SubtitlesPath))</visible>
-				</control>
-
-				<control type="label" id="404">
-					<description>Default Button</description>
-					<width>1200</width>
-					<align>right</align>
-					<label>XBMC Subtitles</label>
-					<visible>IsEmpty(Skin.String(SubtitlesPath))</visible>
-				</control>
-
 			</control>
 
 			<control type="grouplist" id="500">
