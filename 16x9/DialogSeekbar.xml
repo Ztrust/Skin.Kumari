@@ -158,6 +158,16 @@
 				<width>1680</width>
 				<visible>Player.Seeking</visible>
 			</control>
+			
+			
+			<control type="label">
+				<description>Seeking Label</description>
+				<left>20</left>
+				<top>84</top>
+				<width>1680</width>
+     			<align>left</align>
+				<label>$VAR[SeekLabel]</label>
+			</control>
 
 		</control>
 

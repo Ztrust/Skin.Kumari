@@ -2,7 +2,7 @@
 <!-- Foundation -->
 <window id="123">
 	<defaultcontrol>5</defaultcontrol>
-
+           <!-- Needs header label -->
 	<coordinates>
 		<system>1</system>
 		<left>450</left>
@@ -20,14 +20,14 @@
 			<texture border="22">other_textures/ContentPanel.png</texture>
 		</control>
 
-		<control type="label">
+		<control type="label" id="2">
 			<description>header label</description>
 			<left>15</left>
 			<top>15</top>
 			<width>990</width>
 			<align>center</align>
 			<font>Medium</font>
-			<label>5</label>
+			<label>-</label>
 		</control>
 
 		<control type="label" id="3">

@@ -65,7 +65,7 @@
 						<width>338</width>
 						<height>23</height>
 						<align>center</align>
-						<info>ListItem.Label</info>
+						<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>
 					</control>
 
 				</itemlayout>
@@ -94,7 +94,7 @@
 						<width>338</width>
 						<height>23</height>
 						<align>center</align>
-						<info>ListItem.Label</info>
+						<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>
 					</control>
 
 				</focusedlayout>

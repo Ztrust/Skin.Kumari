@@ -265,7 +265,7 @@
 					<label>13511</label>
 					<width>383</width>
 				</control>
-			
+
 			</control>
 
 			<control type="list" id="50">
@@ -292,7 +292,7 @@
 					<control type="label">
 						<left>30</left>
 						<width>810</width>
-						<info>ListItem.Label</info>
+						<label>$INFO[ListItem.Label]$INFO[ListItem.Label2 , - ]</label>
 					</control>
 
 				</itemlayout>

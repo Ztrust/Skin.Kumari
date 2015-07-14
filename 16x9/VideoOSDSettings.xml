@@ -5,7 +5,7 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
-
+           <!-- Needs header label -->
 		<control type="group">
 			<left>510</left>
 			<top>240</top>
@@ -14,6 +14,7 @@
 			<control type="label" id="2">
 				<description>Settings</description>
 				<left>15</left>
+				<label>-</label>
 				<top>48</top>
 				<width>870</width>
 				<font>Medium</font>

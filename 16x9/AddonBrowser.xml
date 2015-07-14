@@ -45,7 +45,14 @@
 				<align>left</align>
 				<altlabel>585</altlabel>
 			</control>
-
+			
+			<control type="button" id="9">
+				<description>check for repo updates</description>
+				<width>330</width>
+				<align>left</align>
+				<label> 24034</label>				
+			</control>
+			
 			<control type="radiobutton" id="5">
 				<description>Enable auto-updates</description>
 				<label>24063</label>

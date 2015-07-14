@@ -5,6 +5,7 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
+	           <!-- Needs header label -->
                 <!-- Need to ad settings level button + decription box -->
 		<include>GlobalBackground</include>
 

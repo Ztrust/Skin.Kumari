@@ -17,6 +17,5 @@
                                                       <!-- ============= -->
                                                       <!--   Replaced    -->
                                                       <!-- ============= -->
-			                          SmartPlaylistEditor.xml
 			                          SettingsProfile.xml
 

@@ -5,6 +5,7 @@
 	<include file="Defaults.xml" />
 	<include file="CommonViews.xml" />
 	<include file="View_50_List.xml" />
+	<include file="Variables.xml" />
 
 	<include name="HiddenButton">
 		<left>-20</left>

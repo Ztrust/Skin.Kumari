@@ -5,7 +5,7 @@
 	<allowoverlay>yes</allowoverlay>
 
 	<controls>
-
+           <!-- Needs header label -->
 		<include>GlobalOverlay</include>
 
 		<control type="group">
