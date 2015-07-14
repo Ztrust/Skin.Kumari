@@ -86,8 +86,9 @@
 				</item>
 				<item id="7">
 					<description>Network</description>
-					<label>705</label>
-					<onclick>activatewindow(NetworkSettings)</onclick>
+					<label>14036</label>
+					<!-- <label2>31409</label2> -->
+					<onclick>ActivateWindow(ServiceSettings)</onclick>
 				</item>
 				<item id="8">
 					<description>System</description>
