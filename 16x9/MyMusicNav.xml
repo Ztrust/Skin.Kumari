@@ -73,7 +73,7 @@
 				<align>left</align>
 				<label>589</label>
 			</control>
-
+                       <!--  needs checking out to new filter control -->
 			<control type="button" id="21">
 				<description>Activate Filter</description>
 				<width>330</width>
@@ -83,7 +83,7 @@
 				<onclick>SetFocus(22)</onclick>
 				<visible>IsEmpty(Window.Property(filter))</visible>
 			</control>
-
+                       <!--  needs checking out to new filter control -->
 			<control type="button" id="22">
 				<description>Show Filter Label</description>
 				<width>330</width>
@@ -93,6 +93,18 @@
 				<onclick>SetFocus(21)</onclick>
 				<visible>!IsEmpty(Window.Property(filter))</visible>
 			</control>
+			
+			<control type="togglebutton" id="20">
+                    <description>Update library</description>
+                    <textwidth>352</textwidth>
+				    <align>left</align>                    
+                    <label>653</label>
+                    <altlabel>13353</altlabel>
+                    <alttexturefocus border="5">button-focus.png</alttexturefocus>
+                    <alttexturenofocus>-</alttexturenofocus>
+                    <usealttexture>library.isscanningmusic</usealttexture>
+                </control>
+
 
 			<control type="button" id="98">
 				<description>Open Player Controls</description>

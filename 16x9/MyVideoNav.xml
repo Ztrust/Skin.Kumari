@@ -107,7 +107,7 @@
 				<align>left</align>
 				<label>20411</label>
 			</control>
-
+                    <!--  Need fixing and updated to other filter mode -->
 			<control type="button" id="21">
 				<description>Activate Filter</description>
 				<width>330</width>
@@ -117,7 +117,7 @@
 				<onclick>SetFocus(22)</onclick>
 				<visible>IsEmpty(Window.Property(filter))</visible>
 			</control>
-
+                    <!--  Need fixing and updated to other filter mode -->
 			<control type="button" id="22">
 				<description>Show Filter Label</description>
 				<width>330</width>
@@ -127,6 +127,16 @@
 				<onclick>SetFocus(21)</onclick>
 				<visible>!IsEmpty(Window.Property(filter))</visible>
 			</control>
+			<control type="togglebutton" id="20">
+                    <description>Update library</description>
+                    <textwidth>352</textwidth>
+                    <label>653</label>
+                    <align>left</align>
+                    <altlabel>13353</altlabel>
+                    <alttexturefocus border="5">button-focus.png</alttexturefocus>
+                    <alttexturenofocus>-</alttexturenofocus>
+                    <usealttexture>library.isscanningvideo</usealttexture>
+                </control>
 
 			<control type="button" id="98">
 				<description>Open Player Controls</description>
