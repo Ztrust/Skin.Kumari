@@ -6,7 +6,9 @@
 
 	<controls>
 
+
 		<include>Global_Overlay</include>
+		<include>Clock</include>
 		<!-- <include>GlobalBackground</include> -->
 
 		<control type="wraplist" id="300">

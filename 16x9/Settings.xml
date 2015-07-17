@@ -6,49 +6,67 @@
 
 	<controls>
 
-		<include>GlobalBackground</include>
+		<include>Global_Overlay</include>
+		<include>Clock</include>
+		<!-- <include>GlobalBackground</include> -->
+		
+		<control type="label">
+		<description>Settings Header</description>
+			<left>100</left>
+			<top>100</top>
+			<height>60</height>
+			<width>500</width>		
+			<textcolor>FF6d6d6d</textcolor>				
+			<font>Header2</font>
+			<label>settings</label>
 
-		<control type="list" id="9000">
-			<left>780</left>
-			<top>162</top>
-			<width>360</width>
-			<height>966</height>
-			<onup>9000</onup>
-			<ondown>9000</ondown>
-			<viewtype label="List">list</viewtype>
-			<scrolltime>200</scrolltime>
-			<itemlayout width="360" height="69">
+		</control>		
 
-				<control type="image">
-					<width>360</width>
-					<height>66</height>
-					<texture border="2">other_textures/ButtonNF.png</texture>
-				</control>
+		<control type="wraplist" id="9000">
+			<description>Home Wraplist</description>
+			<left>140</left>
+			<top>200</top>
+			<width>1120</width>
+			<height>60</height>
+			<onup>300</onup>
+			<ondown>300</ondown>
+			<onleft>300</onleft>
+			<onright>300</onright>
+			<movement>1</movement>
+			<orientation>horizontal</orientation>
+			<focusposition>2</focusposition>
+			<scrolltime tween="sine" easing="out">200</scrolltime>
+			
+			
+			
+			
+			
+			<itemlayout width="220" height="600">
 
 				<control type="label">
-					<left>180</left>
-					<width>300</width>
-					<font>Medium</font>
+					<left>0</left>
+					<height>60</height>
+					<width>210</width>		
+					<aligny>center</aligny>
+					<textcolor>Grey</textcolor>				
+					<font>Menu</font>
+					<info>ListItem.Label</info>
 					<align>center</align>
-					<label>$INFO[ListItem.Label]</label>
 				</control>
 
 			</itemlayout>
 
-			<focusedlayout width="360" height="69">
-
-				<control type="image">
-					<width>360</width>
-					<height>66</height>
-					<texture border="5">other_textures/ButtonFo.png</texture>
-				</control>
+			<focusedlayout width="230" height="60">
 
 				<control type="label">
-					<left>180</left>
-					<width>300</width>
-					<font>Medium</font>
+					<left>0</left>
+					<width>220</width>
+					<height>60</height>
+					<aligny>center</aligny>	
+					<info>ListItem.Label</info>
+					<font>Home</font>
+					<textcolor>Themecolor</textcolor>
 					<align>center</align>
-					<label>$INFO[ListItem.Label]</label>
 				</control>
 
 			</focusedlayout>

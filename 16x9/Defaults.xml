@@ -3,8 +3,8 @@
 <includes>
 
 	<default type="label">
-		<left>0</left>
-		<top>0</top>
+<!-- 		<left>-</left>
+		<top>0</top> -->
 		<label>-</label>
 		<align>left</align>
 		<aligny>center</aligny>
@@ -31,8 +31,8 @@
 	</default>
 
 	<default type="image">
-		<left>0</left>
-		<top>0</top>
+<!-- 		<left>0</left>
+		<top>0</top> -->
 		<width>-</width>
 		<height>-</height>
 		<align>center</align>

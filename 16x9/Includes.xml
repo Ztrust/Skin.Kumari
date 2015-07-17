@@ -61,12 +61,15 @@
 		<align>right</align>
 	</include>
 	
-		<include name="Global_Overlay">
+<!-- 		<include name="Global_Overlay">
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture>special://skin/backgrounds/default.jpg</texture>
 		</control>
-	</include>
+	</include> -->	
+
+
+
 
 <!-- 	<include name="GlobalOverlay">special://skin
 		<control type="image">
