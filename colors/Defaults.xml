@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <colors>
-	<color name="Themecolor">FF000000</color>
+	<!-- ============= -->
+	<!--   My Colors   -->
+	<!-- ============= -->
+
+    <color name="Grey">FF6d6d6d</color>
+	<color name="Themecolor">FF474747</color>
+	<!-- ============= -->
+	<!--   My Colors   -->
+	<!-- ============= -->	
 	<color name="Black">FF000000</color>
 	<color name="White">FFFFFFFF</color>
 	<color name="Red">FFFF0000</color>

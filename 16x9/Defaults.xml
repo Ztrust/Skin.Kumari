@@ -9,9 +9,9 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
-		<selectedcolor>White</selectedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
+		<selectedcolor>Themecolor</selectedcolor>
 		<disabledcolor>Red</disabledcolor>
 	</default>
 
@@ -22,9 +22,9 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
-		<selectedcolor>White</selectedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
+		<selectedcolor>Themecolor</selectedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<scrollout>false</scrollout>
 		<pauseatend>2000</pauseatend>
@@ -50,8 +50,8 @@
 		<font>Small</font>
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
@@ -66,8 +66,8 @@
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
 		<font>Small</font>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
 		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
@@ -87,8 +87,8 @@
 		<aligny>center</aligny>
 		<font>Small</font>
 		<label>-</label>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<radiowidth>45</radiowidth>
 		<radioheight>45</radioheight>
@@ -115,8 +115,8 @@
 		<texturedown>other_textures/ArrowDownNF.png</texturedown>
 		<textureupfocus>other_textures/ArrowUpFo.png</textureupfocus>
 		<texturedownfocus>other_textures/ArrowDownFo.png</texturedownfocus>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<textoffsetx>30</textoffsetx>
 		<align>left</align>
@@ -137,8 +137,8 @@
 		<textureupfocus>other_textures/ArrowUpFo.png</textureupfocus>
 		<texturedownfocus>other_textures/ArrowDownFo.png</texturedownfocus>
 		<font>Small</font>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<textoffsetx>30</textoffsetx>
 		<align>left</align>
@@ -160,8 +160,8 @@
 		<textureslidernib border="2">other_textures/OSD/SliderNibNF.png</textureslidernib>
 		<textureslidernibfocus border="2">other_textures/OSD/SliderNibFO.png</textureslidernibfocus>
 		<font>Small</font>
-		<textcolor>White</textcolor>
-		<focusedcolor>White</focusedcolor>
+		<textcolor>Themecolor</textcolor>
+		<focusedcolor>Themecolor</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<textoffsetx>30</textoffsetx>
 		<textoffsety>0</textoffsety>
@@ -203,7 +203,7 @@
 	<default type="textbox">
 		<label>-</label>
 		<font>Small</font>
-		<textcolor>white</textcolor>
+		<textcolor>Themecolor</textcolor>
 		<shadowcolor>black</shadowcolor>
 		<pagecontrol>61</pagecontrol>
 		<autoscroll delay="6000" time="3000" repeat="10000"/>

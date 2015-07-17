@@ -17,59 +17,59 @@ msgid "Files Mode"
 msgstr ""
 
 msgctxt "#31002"
-msgid "PROGRAMS"
+msgid "Tv Shows"
 msgstr ""
 
 msgctxt "#31003"
-msgid "VIDEOS"
+msgid "Movies"
 msgstr ""
 
 msgctxt "#31004"
-msgid "MUSIC"
+msgid "Music"
 msgstr ""
 
 msgctxt "#31005"
-msgid "PICTURES"
+msgid "Pictures"
 msgstr ""
 
 msgctxt "#31006"
-msgid "MOVIES"
+msgid "Videos"
 msgstr ""
 
 msgctxt "#31007"
-msgid "TV SHOWS"
+msgid "Programs"
 msgstr ""
 
 msgctxt "#31008"
-msgid "FAVOURITES"
+msgid "Favourites"
 msgstr ""
 
 msgctxt "#31009"
-msgid "PROFILES"
+msgid "Profiles"
 msgstr ""
 
 msgctxt "#31010"
-msgid "WEATHER"
+msgid "Weather"
 msgstr ""
 
 msgctxt "#31011"
-msgid "FILE MANAGER"
+msgid "File Manager"
 msgstr ""
 
 msgctxt "#31012"
-msgid "SETTINGS"
+msgid "Settings"
 msgstr ""
 
 msgctxt "#31013"
-msgid "SHUTDOWN"
+msgid "Shutdown"
 msgstr ""
 
 msgctxt "#31014"
-msgid "PLAY DISC"
+msgid "Play Disc"
 msgstr ""
 
 msgctxt "#31015"
-msgid "PLAYER Controls"
+msgid "Player Controls"
 msgstr ""
 
 msgctxt "#31016"

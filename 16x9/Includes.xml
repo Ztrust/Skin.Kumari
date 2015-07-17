@@ -6,6 +6,7 @@
 	<include file="CommonViews.xml" />
 	<include file="View_50_List.xml" />
 	<include file="Variables.xml" />
+	<include file="My_Includes.xml" />
 
 	<include name="HiddenButton">
 		<left>-20</left>
@@ -59,8 +60,15 @@
 		<shadowcolor>Black</shadowcolor>
 		<align>right</align>
 	</include>
+	
+		<include name="Global_Overlay">
+		<control type="image">
+			<include>Dimensions_Fullscreen</include>
+			<texture>special://skin/backgrounds/default.jpg</texture>
+		</control>
+	</include>
 
-<!-- 	<include name="GlobalOverlay">
+<!-- 	<include name="GlobalOverlay">special://skin
 		<control type="image">
 			<include>Dimensions_Fullscreen</include>
 			<texture border="2">other_textures/black-back.png</texture>
