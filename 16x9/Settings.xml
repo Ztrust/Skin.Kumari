@@ -2,16 +2,18 @@
 <!-- Foundation -->
 <window id="4">
 	<defaultcontrol always="true">9000</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+	<allowoverlay>no</allowoverlay>
 
 	<controls>
 
 		<include>Global_Overlay</include>
 		<include>Clock</include>
 		<!-- <include>GlobalBackground</include> -->
-		
+
+		<!--Turn into Variable For all Headers-->
+
 		<control type="label">
-		<description>Settings Header</description>
+			<description>Settings Header</description>
 			<left>100</left>
 			<top>100</top>
 			<height>60</height>
@@ -19,8 +21,9 @@
 			<textcolor>FF6d6d6d</textcolor>				
 			<font>Header2</font>
 			<label>settings</label>
-
 		</control>		
+
+		<!--Turn into Variable For all Headers-->
 
 		<control type="wraplist" id="9000">
 			<description>Home Wraplist</description>
@@ -35,12 +38,8 @@
 			<movement>1</movement>
 			<orientation>horizontal</orientation>
 			<focusposition>2</focusposition>
-			<scrolltime tween="sine" easing="out">200</scrolltime>
-			
-			
-			
-			
-			
+			<scrolltime tween="sine" easing="out">200</scrolltime>			
+
 			<itemlayout width="220" height="600">
 
 				<control type="label">
@@ -50,7 +49,7 @@
 					<aligny>center</aligny>
 					<textcolor>Grey</textcolor>				
 					<font>Menu</font>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 					<align>center</align>
 				</control>
 
@@ -63,7 +62,7 @@
 					<width>220</width>
 					<height>60</height>
 					<aligny>center</aligny>	
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 					<font>Home</font>
 					<textcolor>Themecolor</textcolor>
 					<align>center</align>
@@ -73,58 +72,88 @@
 
 			<content>
 				<item id="1">
-					<description>Appearance</description>
 					<label>480</label>
-					<onclick>activatewindow(AppearanceSettings)</onclick>
+					<label2>31500</label2>
+					<onclick>ActivateWindow(AppearanceSettings)</onclick>
 				</item>
+
 				<item id="2">
-					<description>Videos</description>
 					<label>3</label>
-					<onclick>activatewindow(VideosSettings)</onclick>
+					<label2>31501</label2>
+					<onclick>ActivateWindow(VideosSettings)</onclick>
 				</item>
+
 				<item id="3">
 					<description>Music</description>
 					<label>2</label>
+					<label2>31502</label2>
 					<onclick>activatewindow(MusicSettings)</onclick>
 				</item>
+
 				<item id="4">
 					<description>Addons</description>
 					<label>24001</label>
+					<label2>31508</label2>
 					<onclick>activatewindow(AddonBrowser)</onclick>
 				</item>
+
 				<item id="5">
 					<description>Pictures</description>
 					<label>1</label>
+					<label2>31503</label2>
 					<onclick>activatewindow(PicturesSettings)</onclick>
 				</item>
+
 				<item id="6">
 					<description>Weather</description>
 					<label>8</label>
+					<label2>31504</label2>
 					<onclick>activatewindow(WeatherSettings)</onclick>
 				</item>
+
 				<item id="7">
-					<description>Network</description>
+					<description>Services/Network</description>
 					<label>14036</label>
-					<!-- <label2>31409</label2> -->
+					<label2>31510</label2>
 					<onclick>ActivateWindow(ServiceSettings)</onclick>
 				</item>
+
 				<item id="8">
 					<description>System</description>
 					<label>13000</label>
+					<label2>31506</label2>
 					<onclick>activatewindow(SystemSettings)</onclick>
 				</item>
-				<item id="9">
+
+				<!-- 				<item id="9">
 					<description>Profiles</description>
 					<label>13200</label>
 					<onclick>activatewindow(Profiles)</onclick>
 				</item>
+				
 				<item id="10">
 					<description>System Info</description>
 					<label>130</label>
 					<onclick>activatewindow(7)</onclick>
-				</item>
+				</item> -->
 			</content>
 		</control>
+            
+            
+            <!--create separate title labels for offset -->			
+			
+            <control type="textbox">
+				<description>Appearance Description</description>
+				<left>1050</left>
+				<top>750</top>
+				<width>700</width>
+				<height>300</height>
+				<font>Text</font>
+				<label>$INFO[Container(9000).ListItem.Label2]</label>
+				<align>left</align>
+				<textcolor>Black</textcolor>
+				<!-- <shadowcolor>Grey</shadowcolor> -->
+			</control>
 
 	</controls>
 

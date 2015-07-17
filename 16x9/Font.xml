@@ -40,6 +40,34 @@
 			<filename>Roboto-BlackV2.ttf</filename>
 			<size>78</size>
 		</font>
+		
+		<font>
+			<name>Text</name>
+			<filename>Comfortaa-Bold.ttf</filename>
+			<style>capitalize</style>
+			<size>22</size>
+		</font>		
+		
+		<font>
+			<name>Text2</name>
+			<filename>Roboto-RegularV2.ttf</filename>
+			<size>22</size>
+		</font>
+		
+		<font>
+			<name>Text3</name>
+			<filename>OpenSans-Regular.ttf</filename>
+			<size>22</size>
+		</font>
+		
+		<font>
+			<name>Text3</name>
+			<filename>Roboto-MediumV2.ttf</filename>
+			<size>22</size>
+		</font>
+
+		
+		
 
 		<!-- ============= -->
 		<!--  Not In Use   -->

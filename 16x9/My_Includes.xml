@@ -2,18 +2,22 @@
 <!--Kumari-->
 
 <includes>
-
+       
 	<include name="Global_Overlay">
-    <control type="largeimage" id="1">
+	
+	<!-- Always Preset underlay -->
+    
+	<control type="image">
 			<include>Dimensions_Fullscreen</include>
-			<texture>special://skin/backgrounds/default.jpg</texture>
+			<texture background="true">special://skin/backgrounds/default.jpg</texture>
 		</control>
 	</include>
 
 	<!-- <animation effect="rotatey" center="-135" start="-55" end="-55" time="0" condition="true">Conditional</animation> -->
 
 	<include name="Clock">
-		<control type="label">
+	
+	<control type="label">
 			<description>Clock</description>
 			<right>150</right>
 			<top>50</top>
