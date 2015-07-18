@@ -1,69 +1,106 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="12">
-	<defaultcontrol always="true">3</defaultcontrol>
-	<allowoverlay>yes</allowoverlay>
+    <defaultcontrol always="true">3</defaultcontrol>
+    <allowoverlay>yes</allowoverlay>
 
-	<controls>
-	           <!-- Needs header label -->
-                <!-- Need to ad settings level button + decription box -->
-		<include>GlobalBackground</include>
+    <controls>
+        <!-- Needs header label -->
+        <!-- Need to ad settings level button + decription box -->
 
-		<control type="grouplist" id="3">
-			<description>Button Area</description>
-			<left>15</left>
-			<top>210</top>
-			<width>450</width>
-			<height>720</height>
-			<itemgap>3</itemgap>
-			<onleft>5</onleft>
-			<onright>5</onright>
-			<onup>3</onup>
-			<ondown>3</ondown>
-			<orientation>vertical</orientation>
-		</control>
+        <include>Global_Overlay</include>
+        <include>Clock</include>
+        <!-- <include>GlobalBackground</include> -->
 
-		<control type="grouplist" id="5">
-			<description>Control Area</description>
-			<left>510</left>
-			<top>210</top>
-			<width>1230</width>
-			<height>720</height>
-			<itemgap>3</itemgap>
-			<onleft>3</onleft>
-			<onright>3</onright>
-			<onup>5</onup>
-			<ondown>5</ondown>
-			<orientation>vertical</orientation>
-		</control>
+        <control type="label" id="2">
+            <description>Settings Header/Default Header</description>
+            <left>100</left>
+            <top>100</top>
+            <height>60</height>
+            <width>500</width>		
+            <textcolor>Header</textcolor>				
+            <font>Header2</font>
+            <label>-</label>
+        </control> 
 
-		<control type="button" id="7">
-			<description>Default Button</description>
-			<align>left</align>
-		</control>
+        <!--         <control type="label" id="14">
+            <description>Settings Header/Default Header</description>
+            <left>200</left>
+            <top>100</top>
+            <height>60</height>
+            <width>500</width>		
+            <textcolor>FF6d6d6d</textcolor>				
+            <font>Header2</font>
+            <label>-</label>
+        </control>  -->
 
-		<control type="radiobutton" id="8">
-			<description>Default Radio Button</description>
-			<radioleft>1155</radioleft>
-			<align>left</align>
-		</control>
+        <control type="grouplist" id="3">
+            <description>Button Area</description>
+            <left>140</left>
+            <top>200</top>
+            <width>1160</width>
+            <height>60</height>
+            <itemgap/>
+            <onleft>3</onleft>
+            <onright>3</onright>
+            <onup>3</onup>
+            <ondown>5</ondown>
+            <orientation>horizontal</orientation>
+        </control>
 
-		<control type="spincontrolex" id="9">
-			<description>Default Spin Control</description>
-			<align>left</align>
-		</control>
-	<control type="button" id="10">
-			<description>Default Category Button</description>
-			<align>left</align>
-		</control>	
-		
-	<control type="button" id="20">
+        <control type="grouplist" id="5">
+            <description>Control Area</description>
+            <left>300</left>
+            <top>350</top>
+            <width>1220</width>
+            <height>400</height>
+            <itemgap>3</itemgap>
+            <onleft>3</onleft>
+            <onright>3</onright>
+            <onup>5</onup>
+            <ondown>5</ondown>
+            <orientation>vertical</orientation>
+        </control>
+
+
+
+        <control type="button" id="7">
+            <description>Default Button</description>
+            <align>left</align>
+            <align>left</align>
+            <width>300</width>
+            <aligny>top</aligny>
+        </control>
+
+        <control type="radiobutton" id="8">
+            <description>Default Radio Button</description>
+            <radioleft>1155</radioleft>
+            <align>left</align>
+            <aligny>top</aligny>
+        </control>
+
+        <control type="spincontrolex" id="9">
+            <description>Default Spin Control</description>
+            <align>left</align>
+        </control>
+        
+        <control type="button" id="10">
+            <description>Default Category Button</description>
+            <width>280</width>	
+            <texturefocus>-</texturefocus>
+            <focusedcolor>Themecolor</focusedcolor>
+            <align>center</align>
+            <aligny>center</aligny>
+        </control>	
+
+        <!--         	<control type="button" id="20">
 			<description>Setting Level Change</description>
 			<align>left</align>
-		</control>	
-		
+		</control>	 -->
 
 
-	</controls>
+
+
+    </controls>
 
 </window>

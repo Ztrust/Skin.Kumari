@@ -3,13 +3,11 @@
 <includes>
 
 	<default type="label">
-<!-- 		<left>-</left>
-		<top>0</top> -->
 		<label>-</label>
 		<align>left</align>
 		<aligny>center</aligny>
-		<font>Small</font>
-		<textcolor>Themecolor</textcolor>
+		<font>Menu</font>
+		<textcolor>Grey</textcolor>
 		<focusedcolor>Themecolor</focusedcolor>
 		<selectedcolor>Themecolor</selectedcolor>
 		<disabledcolor>Red</disabledcolor>
@@ -22,8 +20,8 @@
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Small</font>
-		<textcolor>Themecolor</textcolor>
-		<focusedcolor>Themecolor</focusedcolor>
+		<textcolor>Grey</textcolor>
+			<focusedcolor>White</focusedcolor>
 		<selectedcolor>Themecolor</selectedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<scrollout>false</scrollout>
@@ -43,18 +41,18 @@
 	<default type="button">
 		<left>0</left>
 		<top>0</top>
-		<width>450</width>
-		<height>66</height>
+		<width>220</width>
+		<height>60</height>
 		<align>center</align>
 		<aligny>center</aligny>
-		<font>Small</font>
+		<font>Menu</font>
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
-		<textcolor>Themecolor</textcolor>
-		<focusedcolor>Themecolor</focusedcolor>
+		<textcolor>Grey</textcolor>
+		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
-		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
+<!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
+            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
 		<pulseonselect>false</pulseonselect>
 	</default>
 
@@ -65,12 +63,12 @@
 		<height>66</height>
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
-		<font>Small</font>
-		<textcolor>Themecolor</textcolor>
-		<focusedcolor>Themecolor</focusedcolor>
+		<font>Menu</font>
+		<textcolor>Grey</textcolor>
+			<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
-		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
+<!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
+            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
 		<alttexturenofocus border="2">other_textures/ButtonNF.png</alttexturenofocus>
 		<alttexturefocus border="5">other_textures/ButtonFo.png</alttexturefocus>
 		<align>center</align>
@@ -85,15 +83,15 @@
 		<height>66</height>
 		<align>center</align>
 		<aligny>center</aligny>
-		<font>Small</font>
+		<font>Menu</font>
 		<label>-</label>
-		<textcolor>Themecolor</textcolor>
-		<focusedcolor>Themecolor</focusedcolor>
+		<textcolor>Grey</textcolor>
+<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<radiowidth>45</radiowidth>
 		<radioheight>45</radioheight>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
-		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
+<!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
+            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
 		<textureradiofocus>other_textures/RadiobuttonFo.png</textureradiofocus>
 		<textureradionofocus>other_textures/RadiobuttonNF.png</textureradionofocus>
 		<textoffsetx>30</textoffsetx>
@@ -101,24 +99,25 @@
 	</default>
 
 	<default type="spincontrolex">
-		<left>0</left>
+<!-- 		<left>-</left> -->
 		<top>0</top>
 		<width>450</width>
 		<height>66</height>
 		<label>-</label>
-		<font>Small</font>
+		<font>Menu</font>
 		<spinwidth>39</spinwidth>
 		<spinheight>39</spinheight>
-		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
-		<texturefocus border="5">other_textures/ButtonFo.png</texturefocus>
+<!--         <spinposx>220</spinposx> -->
+<!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
+            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
 		<textureup>other_textures/ArrowUpNF.png</textureup>
 		<texturedown>other_textures/ArrowDownNF.png</texturedown>
 		<textureupfocus>other_textures/ArrowUpFo.png</textureupfocus>
 		<texturedownfocus>other_textures/ArrowDownFo.png</texturedownfocus>
-		<textcolor>Themecolor</textcolor>
-		<focusedcolor>Themecolor</focusedcolor>
+		<textcolor>Grey</textcolor>
+			<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
-		<textoffsetx>30</textoffsetx>
+		<textoffsetx>150</textoffsetx>
 		<align>left</align>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
@@ -136,11 +135,11 @@
 		<texturedown>other_textures/ArrowDownNF.png</texturedown>
 		<textureupfocus>other_textures/ArrowUpFo.png</textureupfocus>
 		<texturedownfocus>other_textures/ArrowDownFo.png</texturedownfocus>
-		<font>Small</font>
-		<textcolor>Themecolor</textcolor>
-		<focusedcolor>Themecolor</focusedcolor>
+		<font>Menu</font>
+		<textcolor>Grey</textcolor>
+			<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
-		<textoffsetx>30</textoffsetx>
+		<textoffsetx>-</textoffsetx>
 		<align>left</align>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
@@ -159,9 +158,9 @@
 		<texturesliderbar>other_textures/OSD/slider_bg.png</texturesliderbar>
 		<textureslidernib border="2">other_textures/OSD/SliderNibNF.png</textureslidernib>
 		<textureslidernibfocus border="2">other_textures/OSD/SliderNibFO.png</textureslidernibfocus>
-		<font>Small</font>
-		<textcolor>Themecolor</textcolor>
-		<focusedcolor>Themecolor</focusedcolor>
+		<font>Menu</font>
+		<textcolor>Grey</textcolor>
+			<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<textoffsetx>30</textoffsetx>
 		<textoffsety>0</textoffsety>
@@ -203,7 +202,7 @@
 	<default type="textbox">
 		<label>-</label>
 		<font>Small</font>
-		<textcolor>Themecolor</textcolor>
+		<textcolor>Grey</textcolor>
 		<shadowcolor>black</shadowcolor>
 		<pagecontrol>61</pagecontrol>
 		<autoscroll delay="6000" time="3000" repeat="10000"/>

@@ -18,7 +18,7 @@
 			<top>100</top>
 			<height>60</height>
 			<width>500</width>		
-			<textcolor>FF6d6d6d</textcolor>				
+			<textcolor>Header</textcolor>				
 			<font>Header2</font>
 			<label>settings</label>
 		</control>		
@@ -47,11 +47,11 @@
 					<height>60</height>
 					<width>210</width>		
 					<aligny>center</aligny>
+                    <align>center</align>
 					<textcolor>Grey</textcolor>				
 					<font>Menu</font>
 					<label>$INFO[ListItem.Label]</label>
-					<align>center</align>
-				</control>
+					</control>
 
 			</itemlayout>
 
@@ -61,12 +61,12 @@
 					<left>0</left>
 					<width>220</width>
 					<height>60</height>
-					<aligny>center</aligny>	
+                    <aligny>center</aligny>
+                    <align>center</align>
 					<label>$INFO[ListItem.Label]</label>
 					<font>Home</font>
 					<textcolor>Themecolor</textcolor>
-					<align>center</align>
-				</control>
+					</control>
 
 			</focusedlayout>
 

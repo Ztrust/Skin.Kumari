@@ -26,8 +26,8 @@
 			<align>right</align>
 			<aligny>top</aligny>
 			<font>clock</font>
-			<textcolor>Grey2</textcolor>
-			<shadowcolor>Grey</shadowcolor>
+			<textcolor>Header</textcolor>
+			<shadowcolor>Black</shadowcolor>
 			<label>$INFO[System.Time]</label>
 		</control>
 
