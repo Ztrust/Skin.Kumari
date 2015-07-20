@@ -9,8 +9,10 @@
 		<include>GlobalOverlay</include>
 
 		<control type="wraplist" id="300">
+        
+       
 			<description>Home Wraplist</description>
-			<left>0</left>
+			<left>800</left>
 			<top>108</top>
 			<width>1920</width>
 			<height>846</height>
@@ -135,7 +137,32 @@
 
 		</control>
 
-		<control type="rss">
+
+<!--         <control type="label">
+            <left>50</left>
+            <height>75</height>
+            <width>500</width>
+            <font>Header3</font>
+            <textcolor>Themecolor</textcolor>
+            <label>Test Header 1</label>
+            <align>center</align>
+        </control> -->
+        
+        <control type="label">
+            <left>50</left>
+            <top>50</top>
+            <height>200</height>
+            <width>500</width>
+            <font>Header</font>
+            <textcolor>Themecolor2</textcolor>
+            <label>Test Header 1</label>
+            <align>center</align>
+        </control>
+        
+
+        
+        
+        <!-- 		<control type="rss">
 			<description>RSS Feed</description>
 			<left>0</left>
 			<top>1035</top>
@@ -146,7 +173,7 @@
 			<titlecolor>Red</titlecolor>
 			<headlinecolor>White</headlinecolor>
 			<textcolor>White</textcolor>
-		</control>
+		</control> -->
 
 	</controls>
 

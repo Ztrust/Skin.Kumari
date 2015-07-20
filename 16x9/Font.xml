@@ -12,6 +12,113 @@
 			<filename>Arial.ttf</filename>
 			<size>96</size>
 		</font>
+				
+		<font>
+			<name>Header</name>
+			<filename>Comfortaa-Bold.ttf</filename>
+			<size>48</size>
+			</font>	
+			
+		<font>
+			<name>Header2</name>
+			<filename>Comfortaa-Regular.ttf</filename>
+			<size>48</size>
+		</font>
+		
+		<font>
+			<name>Header3</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>48</size>
+		</font>
+		
+		<font>
+			<name>Header4</name>
+			<filename>OpenSans-Bold.ttf</filename>
+			<size>72</size>
+		</font>
+		
+		<font>
+			<name>Header5</name>
+			<filename>OpenSans-Regular.ttf</filename>
+			<size>72</size>
+		</font>
+		
+	    <font>
+			<name>Header6</name>
+			<filename>Roboto-BlackV2.ttf</filename>
+			<size>72</size>
+		</font>
+		
+	    <font>
+			<name>Header7</name>
+			<filename>Roboto-Medium.ttf</filename>
+			<size>72</size>
+		</font>
+		
+		
+		<font>
+			<name>Menu</name>
+			<filename>Comfortaa-Bold.ttf</filename>
+			<size>48</size>
+			</font>	
+			
+		<font>
+			<name>Menu2</name>
+			<filename>Comfortaa-Regular.ttf</filename>
+			<size>48</size>
+		</font>
+		
+		<font>
+			<name>Menu3</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>48</size>
+		</font>
+		
+		<font>
+			<name>Menu4</name>
+			<filename>OpenSans-Bold.ttf</filename>
+			<size>48</size>
+		</font>
+		
+		<font>
+			<name>Menu5</name>
+			<filename>OpenSans-Regular.ttf</filename>
+			<size>48</size>
+		</font>
+		
+	    <font>
+			<name>Menu6</name>
+			<filename>Roboto-BlackV2.ttf</filename>
+			<size>48</size>
+		</font>
+		
+	    <font>
+			<name>Menu7</name>
+			<filename>Roboto-Medium.ttf</filename>
+			<size>48</size>
+		</font>
+		
+	    <font>
+			<name>Menu8</name>
+			<filename>RobotoCondensed-RegularV2.ttf</filename>
+			<size>48</size>
+		</font>
+		
+	    <font>
+			<name>Menu9</name>
+			<filename>Roboto-RegularV2.ttf</filename>
+			<size>48</size>
+		</font>
+
+         <font>
+			<name>Menu10</name>
+			<filename>VarelaRound-Regular.ttf</filename>
+			<size>48</size>
+		</font>
+
+
+
+		
 		
 		<font>
 			<name>Large</name>
