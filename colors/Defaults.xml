@@ -4,8 +4,14 @@
 	<!-- ============= -->
 	<!--   My Colors   -->
 	<!-- ============= -->
-
-
+	<color name="Themecolor">FF2a2828</color>
+	<color name="Themecolor2">FF353535</color>
+	<color name="Themecolor3">FF252525</color>
+	<color name="Grey">FF848383</color>
+	<color name="Grey2">FFb6b3b3</color>
+	<color name="Grey3">FFd2d2d2</color>
+	<color name="Black">FF000000</color>
+	<color name="White">FFFFFFFF</color>
 
   
 	<!-- ============= -->
