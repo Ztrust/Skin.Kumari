@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Kumari-->
+
+<includes>
+
+    <!-- constantBgImage -->
+    <include name="GlobalOverlay">
+        <control type="image">
+            <include>Dimensions_Fullscreen</include>
+            <texture background="true">special://skin/backgrounds/DefaultBG.jpg</texture>
+        </control>
+    
+    </include>
+
+</includes>
