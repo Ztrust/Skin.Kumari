@@ -19,12 +19,20 @@
             <style>capitalize</style>
 			<size>26</size>
 		</font>
+        
+        <font>
+			<name>Menu</name>
+			<filename>Comfortaa-Light.ttf</filename>
+            <style>capitalize</style>
+			<size>28</size>
+		</font>
+				
 				
         <font>
 			<name>Menufo</name>
 			<filename>Comfortaa-Regular.ttf</filename>
             <style>capitalize</style>
-			<size>42</size>
+			<size>28</size>
 		</font>
 				
 
