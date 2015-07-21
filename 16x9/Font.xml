@@ -21,6 +21,14 @@
 			<size>28</size>
 			<style>capitalize</style>
 		</font>
+        
+        <font>
+			<name>Menu2</name>
+			<filename>Comfortaa-Light.ttf</filename>
+			<size>26</size>
+			<style>capitalize</style>
+		</font>
+
 
 		<font>
 			<name>Header</name>

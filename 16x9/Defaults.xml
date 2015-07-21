@@ -21,7 +21,7 @@
 		<aligny>center</aligny>
 		<font>Small</font>
 		<textcolor>Grey</textcolor>
-			<focusedcolor>White</focusedcolor>
+        <focusedcolor>White</focusedcolor>
 		<selectedcolor>Themecolor</selectedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<scrollout>false</scrollout>
@@ -43,7 +43,7 @@
 		<top>0</top>
 		<width>220</width>
 		<height>60</height>
-		<align>center</align>
+		<align>left</align>
 		<aligny>center</aligny>
 		<font>Menu</font>
 		<label>-</label>
@@ -52,7 +52,7 @@
 		<focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 <!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
-            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
+            <texturefocus>other_textures/ButtonFOCUS.png</texturefocus>
 		<pulseonselect>false</pulseonselect>
 	</default>
 
@@ -65,13 +65,13 @@
 		<textoffsetx>30</textoffsetx>
 		<font>Menu</font>
 		<textcolor>Grey</textcolor>
-			<focusedcolor>White</focusedcolor>
+        <focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 <!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
-            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
+        <texturefocus>other_textures/ButtonFOCUS.png</texturefocus>
 		<alttexturenofocus border="2">other_textures/ButtonNF.png</alttexturenofocus>
 		<alttexturefocus border="5">other_textures/ButtonFo.png</alttexturefocus>
-		<align>center</align>
+		<align>left</align>
 		<aligny>center</aligny>
 		<pulseonselect>false</pulseonselect>
 	</default>
@@ -81,17 +81,17 @@
 		<top>0</top>
 		<width>450</width>
 		<height>66</height>
-		<align>center</align>
+		<align>left</align>
 		<aligny>center</aligny>
 		<font>Menu</font>
 		<label>-</label>
 		<textcolor>Grey</textcolor>
-<focusedcolor>White</focusedcolor>
+        <focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<radiowidth>45</radiowidth>
 		<radioheight>45</radioheight>
 <!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
-            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
+        <texturefocus>other_textures/ButtonFOCUS.png</texturefocus>
 		<textureradiofocus>other_textures/RadiobuttonFo.png</textureradiofocus>
 		<textureradionofocus>other_textures/RadiobuttonNF.png</textureradionofocus>
 		<textoffsetx>30</textoffsetx>
@@ -107,17 +107,17 @@
 		<font>Menu</font>
 		<spinwidth>39</spinwidth>
 		<spinheight>39</spinheight>
-<!--         <spinposx>220</spinposx> -->
+        <spinposx>30r</spinposx>
 <!-- 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>-->
-            <texturefocus border="0">other_textures/OverlayDialogBackground.png</texturefocus>
+        <texturefocus>other_textures/ButtonFOCUS.png</texturefocus>
 		<textureup>other_textures/ArrowUpNF.png</textureup>
 		<texturedown>other_textures/ArrowDownNF.png</texturedown>
 		<textureupfocus>other_textures/ArrowUpFo.png</textureupfocus>
 		<texturedownfocus>other_textures/ArrowDownFo.png</texturedownfocus>
 		<textcolor>Grey</textcolor>
-			<focusedcolor>White</focusedcolor>
+        <focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
-		<textoffsetx>150</textoffsetx>
+		<textoffsetx>30</textoffsetx>
 		<align>left</align>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
@@ -137,9 +137,9 @@
 		<texturedownfocus>other_textures/ArrowDownFo.png</texturedownfocus>
 		<font>Menu</font>
 		<textcolor>Grey</textcolor>
-			<focusedcolor>White</focusedcolor>
+        <focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
-		<textoffsetx>-</textoffsetx>
+<!-- 		<textoffsetx>-</textoffsetx> -->
 		<align>left</align>
 		<aligny>center</aligny>
 		<reverse>yes</reverse>
@@ -152,7 +152,7 @@
 		<height>66</height>
 		<width>450</width>
 		<texturenofocus border="2">other_textures/ButtonNF.png</texturenofocus>
-		<texturefocus border="5">other_textures/ButtonFO.png</texturefocus>
+        <texturefocus>other_textures/ButtonFOCUS.png</texturefocus>
 		<sliderwidth>230</sliderwidth>
 		<sliderheight>23</sliderheight>
 		<texturesliderbar>other_textures/OSD/slider_bg.png</texturesliderbar>
@@ -160,7 +160,7 @@
 		<textureslidernibfocus border="2">other_textures/OSD/SliderNibFO.png</textureslidernibfocus>
 		<font>Menu</font>
 		<textcolor>Grey</textcolor>
-			<focusedcolor>White</focusedcolor>
+        <focusedcolor>White</focusedcolor>
 		<disabledcolor>Red</disabledcolor>
 		<textoffsetx>30</textoffsetx>
 		<textoffsety>0</textoffsety>

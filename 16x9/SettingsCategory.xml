@@ -38,9 +38,9 @@
             <description>Button Area</description>
             <left>140</left>
             <top>200</top>
-            <width>1160</width>
+            <width>1100</width>
             <height>60</height>
-            <itemgap/>
+          <itemgap>-50</itemgap>
             <onleft>3</onleft>
             <onright>3</onright>
             <onup>3</onup>
@@ -52,7 +52,7 @@
             <description>Control Area</description>
             <left>300</left>
             <top>350</top>
-            <width>1220</width>
+            <width>1400</width>
             <height>400</height>
             <itemgap>3</itemgap>
             <onleft>3</onleft>
@@ -66,32 +66,41 @@
 
         <control type="button" id="7">
             <description>Default Button</description>
-            <align>left</align>
-            <align>left</align>
-            <width>300</width>
-            <aligny>top</aligny>
         </control>
 
         <control type="radiobutton" id="8">
             <description>Default Radio Button</description>
-            <radioleft>1155</radioleft>
-            <align>left</align>
-            <aligny>top</aligny>
+           <radioposx>1325</radioposx>
         </control>
 
         <control type="spincontrolex" id="9">
             <description>Default Spin Control</description>
-            <align>left</align>
         </control>
         
         <control type="button" id="10">
             <description>Default Category Button</description>
-            <width>280</width>	
+            <width>320</width>	
             <texturefocus>-</texturefocus>
             <focusedcolor>Themecolor</focusedcolor>
-            <align>center</align>
+            <font>Menu2</font>
+            <align>left</align>
             <aligny>center</aligny>
         </control>	
+        
+        
+         <control type="textbox"  id="6">
+				<description>description area</description>>
+				<description>Appearance Description</description>
+				<left>330</left>
+				<top>850</top>
+				<width>1000</width>
+				<height>300</height>
+				<font>Text</font>
+				<!-- <label>$INFO[Container(9000).ListItem.Label2]</label> -->
+				<align>left</align>
+				<textcolor>Black</textcolor>
+				<!-- <shadowcolor>Grey</shadowcolor> -->
+			</control>
 
         <!--         	<control type="button" id="20">
 			<description>Setting Level Change</description>
