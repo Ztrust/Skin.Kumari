@@ -8,43 +8,43 @@
 
 		<include>GlobalOverlay</include>
 
-		<control type="wraplist" id="300">
-        
+		<control type="wraplist" id="300">    
        
 			<description>Home Wraplist</description>
-			<left>800</left>
-			<top>108</top>
-			<width>1920</width>
-			<height>846</height>
+			<left>140</left>
+			<top>160</top>
+			<width>1300</width>
+			<height>80</height>
 			<onup>300</onup>
 			<ondown>300</ondown>
 			<onleft>300</onleft>
 			<onright>300</onright>
-			<focusposition>5</focusposition>
+			<focusposition>2</focusposition>
+            <orientation>horizontal</orientation>
 			<scrolltime>200</scrolltime>
 
-			<itemlayout width="540" height="75">
+			<itemlayout width="300" height="60">
 
 				<control type="label">
-					<left>960</left>
-					<height>75</height>
-					<width>375</width>
-					<font>Medium</font>
+					<left>0</left>
+					<height>60</height>
+					<width>290</width>
+					<!-- <font>Medium</font> -->
 					<info>ListItem.Label</info>
 					<align>center</align>
 				</control>
 
 			</itemlayout>
 
-			<focusedlayout width="810" height="96">
+			<focusedlayout width="330" height="60">
 
 				<control type="label">
-					<left>960</left>
-					<width>810</width>
-					<height>96</height>
+					<!-- <left>960</left> -->
+					<width>320</width>
+					<height>60</height>
 					<info>ListItem.Label</info>
-					<font>Home</font>
-					<textcolor>Blue</textcolor>
+					<font>Menufo</font>
+					<!-- <textcolor>Blue</textcolor> -->
 					<align>center</align>
 				</control>
 
@@ -148,16 +148,7 @@
             <align>center</align>
         </control> -->
         
-        <control type="label">
-            <left>50</left>
-            <top>50</top>
-            <height>200</height>
-            <width>500</width>
-            <font>Header</font>
-            <textcolor>Themecolor2</textcolor>
-            <label>Test Header 1</label>
-            <align>center</align>
-        </control>
+
         
 
         
