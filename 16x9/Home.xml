@@ -36,7 +36,7 @@
 					<aligny>center</aligny>
 					<textcolor>Grey</textcolor>				
 					<font>Menu</font>
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 					<align>center</align>
 				</control>
 
@@ -49,7 +49,7 @@
 					<width>220</width>
 					<height>60</height>
 					<aligny>center</aligny>	
-					<info>ListItem.Label</info>
+					<label>$INFO[ListItem.Label]</label>
 					<font>Home</font>
 					<textcolor>Themecolor</textcolor>
 					<align>center</align>

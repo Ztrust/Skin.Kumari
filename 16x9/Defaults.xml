@@ -42,7 +42,7 @@
 		<left>0</left>
 		<top>0</top>
 		<width>220</width>
-		<height>60</height>
+		<height>50</height>
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Menu</font>
@@ -60,7 +60,7 @@
 		<left>0</left>
 		<top>0</top>
 		<width>450</width>
-		<height>66</height>
+		<height>50</height>
 		<label>-</label>
 		<textoffsetx>30</textoffsetx>
 		<font>Menu</font>
@@ -80,7 +80,7 @@
 		<left>0</left>
 		<top>0</top>
 		<width>450</width>
-		<height>66</height>
+		<height>50</height>
 		<align>left</align>
 		<aligny>center</aligny>
 		<font>Menu</font>
@@ -102,7 +102,7 @@
 <!-- 		<left>-</left> -->
 		<top>0</top>
 		<width>450</width>
-		<height>66</height>
+		<height>50</height>
 		<label>-</label>
 		<font>Menu</font>
 		<spinwidth>39</spinwidth>

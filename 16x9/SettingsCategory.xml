@@ -50,10 +50,10 @@
 
         <control type="grouplist" id="5">
             <description>Control Area</description>
-            <left>300</left>
+            <left>200</left>
             <top>350</top>
             <width>1400</width>
-            <height>400</height>
+            <height>425</height>
             <itemgap>3</itemgap>
             <onleft>3</onleft>
             <onright>3</onright>
@@ -91,14 +91,14 @@
          <control type="textbox"  id="6">
 				<description>description area</description>>
 				<description>Appearance Description</description>
-				<left>330</left>
+				<left>230</left>
 				<top>850</top>
-				<width>1000</width>
+				<width>1100</width>
 				<height>300</height>
-				<font>Text</font>
+				<font>Text3</font>
 				<!-- <label>$INFO[Container(9000).ListItem.Label2]</label> -->
 				<align>left</align>
-				<textcolor>Black</textcolor>
+				<textcolor>Grey</textcolor>
 				<!-- <shadowcolor>Grey</shadowcolor> -->
 			</control>
 
