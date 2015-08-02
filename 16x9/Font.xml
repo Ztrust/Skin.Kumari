@@ -11,7 +11,7 @@
 		<font>
 			<name>Home</name>
 			<filename>Comfortaa-Regular.ttf</filename>
-			<style> CAPITALIZE </style>
+			<style> capitalize </style>
 			<size>34</size>
 		</font>
 
